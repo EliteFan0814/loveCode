@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before {
+    box-sizing: border-box;
+}
+
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prevcode {
+    width: 100%;
+    height: 45%;
+    padding: 5px 10px;
+    background: #fff;
+    font-size: 14px;
+}
+
+.prevcodeinner {
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Microsoft Yahei';
+}
+
+.show {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    height: 165px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+}
+
+.control {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.control button {
+    border: none;
+    padding: 3px 5px;
+    margin-bottom: 10px;
+    background: #eee;
+}
+
+.control button:focus {
+    outline: none;
+}
+
+.control button.unclick {
+    box-shadow: 2px 2px 2px rgba(75, 75, 75, 0.8);
+}
+
+.control button.clicked {
+    box-shadow: 1px 1px 1px rgba(34, 33, 33, 0.8);
+    background: #ccc;
+}
+
+.show {
+    transition: all 1s;
+}
+
+
+.nose {
+    position: absolute;
+}
+
+.eye {
+    position: absolute;
+}
+
+.eye::before {
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+.blusher {
+    position: absolute;
+}
+
+.upperLip {
+    position: absolute;
+    z-index: 1;
+}
+
+.lowerLip {
+    position: absolute;
+    overflow: hidden;
+}
+
+.lowerLip::after {
+    position: absolute;
+    content: "";
+}
+
+
+
+.wrapper .open {
+    height: 110px;
+}
+
+.wrapper .close {
+    height: 0;
+}
+
+.wrapper-lowerlip {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 70px);
+    height: 110px;
+    width: 140px;
+    overflow: hidden;
+}
+
+.mytext {
+    color: transparent;
+    margin-top: 10px;
+    font-size: 2.1em;
+    text-align: center;
+    position: relative;
+    top: 63px;
+    transition: all 2.5s;
+}
+
+.mytext .love {
+    line-height: 1em;
+}
+
+.rectangle {
+    width: 350px;
+    height: 280px;
+    position: absolute;
+    left: calc(50% - 175px);
+    text-align: center;
+}
+
+.rectangle .rectange-wrapper {
+    margin-top: 5px;
+}
+
+.rectangle .rectange-wrapper .left,
+.rectangle .rectange-wrapper .right {
+    display: inline-block;
+}
+
+.rectangle .rectange-wrapper .left {
+    width: 170px;
+    height: 239px;
+    margin-right: -4px;
+}
+
+.rectangle .rectange-wrapper div>div {
+    display: block;
+    height: 34px;
+}
+
+.rectangle .rectange-wrapper div>div>div {
+    display: inline-block;
+    float: right;
+    margin: 2px;
+    background-color: red;
+}
+
+.rectangle .rectange-wrapper div.right>div>div {
+    float: left;
+}
