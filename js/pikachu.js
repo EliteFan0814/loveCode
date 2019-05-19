@@ -138,7 +138,7 @@
 .wrapper{display:none;}
 /*糟糕，皮又落下了*/
 .show{background:#fff;}
-       
+.mytext{display:block;}       
     
    
   你怎么还不走？
@@ -225,7 +225,7 @@
         }
 
         function showText(){
-            $('.mytext').attr('style','display:block;')
+            $('.mytext').attr('style','color:#000;')
         }
 
         function clickControl() {

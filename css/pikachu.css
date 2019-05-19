@@ -136,6 +136,7 @@ body {
 
 .mytext {
     display: none;
+    color: transparent;
     margin-top: 10px;
     font-size: 2.1em;
     text-align: center;
