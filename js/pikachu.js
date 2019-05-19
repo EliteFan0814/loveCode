@@ -225,7 +225,7 @@
         }
 
         function showText(){
-            $('.mytext').attr('display','block;')
+            $('.mytext').attr('style','display:block;')
         }
 
         function clickControl() {
