@@ -7,12 +7,12 @@
         let write_timer
         let talkTimer
         let csscode = `
-/*你好，我是巨大侦探：毛顺沟。
+/*你好，我是丘比特的弟弟：丘卡皮。
   前两天破坏你惊喜的那个叫 [皮卡丘] ，
   不是我，我和他没关系，这个锅我可不背！
   今天就让你看看我真正的样子！
 */
-/*这是我的鼻子，比德芙嗅觉都好！*/
+/*马上出现的是我的鼻子！*/
 .nose {
     border: 11px solid red;
     border-color: black transparent transparent transparent;
@@ -20,7 +20,7 @@
     left: calc(50% - 11px);
     top: 28px;
 }
-/*这是我的眼睛，比德芙眼睛都大！*/
+/*让你看看我的大眼睛*/
 .eye {
     background-color: #2e2e2e;
     width: 50px;
@@ -28,7 +28,7 @@
     border-radius: 50%;
     border: 2px solid black;
 }
-/*看我的眼睛，比德芙的眼睛都亮！*/
+/*快看，我的眼睛是不是很亮！*/
 .eye::before {
     background-color: #fff;
     width: 24px;
@@ -38,14 +38,14 @@
     top: 1px;
     border: 1px solid #000;
 }
-/*我的眼睛很好看吧，是不是比德芙的都好看？*/
+/*我的眼睛很好看吧？*/
 .eye.left {
     left: calc(50% - 25px - 90px);
 }
 .eye.right {
     right: calc(50% - 25px - 90px);
 }
-/*看，我还有腮红呢！德芙就没有！*/
+/*看，我还有腮红呢！*/
 .blusher {
     background-color: #fc0d1c;
     width: 68px;
@@ -60,7 +60,7 @@
 .blusher.right {
     right: calc(50% - 34px - 140px);
 }
-/*看我迷人的上嘴唇，德芙有吗？没有！！！*/
+/*看我迷人的上嘴唇，哈哈！*/
 .upperLip {
     background-color: #fee433;
     width: 80px;
@@ -82,7 +82,7 @@
     right: calc(50% - 80px);
     transform: rotate(15deg);
 }
-/*还有我可爱的嘴巴，德芙有我的可爱吗？没有！！！*/
+/*还有我可爱的嘴巴。*/
 .lowerLip {
     background: #990513;
     width: 140px;
@@ -111,8 +111,7 @@
         let csscode2 = `
 /*这才是我的完全体，
 重申一遍，
-我不是皮卡丘，
-我的皮是没有[毛]的。
+我不是皮卡丘。
 好了，我秀完了，
 允许你免费再看几秒，
         3
@@ -147,7 +146,7 @@
 */
 `
     let lovetext = `
-/*亲爱的宋小青：
+/*亲爱的 XXX ：
   谢谢有你陪在我身边，
   今天是 520 ，
   和我在一起的日子，
